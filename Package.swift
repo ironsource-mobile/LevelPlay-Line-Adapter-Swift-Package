@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ly-ads-network/swift-package-manager-fivead", exact: "3.0.1"),
-    .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.0.0"..<"10.0.0"),
+    .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
     .target(
@@ -17,7 +17,7 @@ let package = Package(
       dependencies: [
         "LineAdapterSDK",
         .product(name: "FiveAd", package: "swift-package-manager-fivead"),
-        .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
+        .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
       ]
     ),
     .binaryTarget(
