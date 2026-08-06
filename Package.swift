@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "LineAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/line-adapter/5.5.0/ISLineAdapter5.5.0.zip",
-      checksum: "a8aa035f6f3a5e705760b27da08a90174f8470d10d0cebd19bddf151e26c40ae"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/line-adapter/5.6.0/ISLineAdapter5.6.0.zip",
+      checksum: "476c0f54886e8a376e0bab3a22262aacb031e70d18ecead7ca8ba858435677ed"
     )
   ]
 )
