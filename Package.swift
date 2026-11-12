@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "LineAdapter", targets: ["LineAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/ly-ads-network/swift-package-manager-fivead", exact: "3.1.1"),
+    .package(url: "https://github.com/ly-ads-network/swift-package-manager-fivead", exact: "3.1.2"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "LineAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/line-adapter/5.8.0/ISLineAdapter5.8.0.zip",
-      checksum: "d3ff23a4cd9f7c93d895dbb774ffc24dacd541f45d6928db65f6a5b54603105a"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/line-adapter/5.9.0/ISLineAdapter5.9.0.zip",
+      checksum: "f8b827c2484294ab5d2e6e21b4191dab6f6e94bbe5e6f155e41d5d7cc59c592c"
     )
   ]
 )
